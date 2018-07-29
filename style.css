@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    background-image: url(texture.jpg);
+    background-repeat: repeat;
+}
+
+.tablet {
+    margin: 0 auto;
+    background-color: #fff;
+    border: 10px solid black;
+    border-left: 50px solid black;
+    border-right: 50px solid black;
+    border-radius: 30px;
+    width: 540px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+}
+
+.title {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.button {
+    display: block;
+    margin: 5px auto;
+}
+
+.tasks {
+    display: block;
+    padding: 10px;
+    width: 220px;
+    overflow: auto;
+}
+
+.task {
+    display: flex;
+    height: 30px;
+    padding: 5px;
+}
+
+.taskP {
+    margin: -2px 5px 0;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.taskP:hover {
+    overflow: visible;
+}
+
+.newtask {
+    width: 220px;
+    padding: 10px;
+}
+
+#inpText {
+    margin: 10px auto;
+}
+
+#adD {
+    margin: 0 40px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
